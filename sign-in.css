@@ -1,0 +1,158 @@
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: left top ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+section {
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+form {
+	margin-bottom: 0;
+}
+
+input[type=text], input[type=password] , input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    border-radius: 7px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#login {
+    background-color: #4CAF50;
+}
+
+#signup {
+    background-color: crimson;
+}
+#signup a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 25%;
+    border-radius: 50%;
+}
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+label{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+}
+
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border-bottom: 2px solid white;
+
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+.name {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    margin-top: 50px;
+    padding: 10px;
+    float: left;
+}
+        
+/* Change styles for span and cancel button on extra small screens 
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}*/
+
+
+

@@ -1,0 +1,16 @@
+CREATE DATABASE Gym
+
+CREATE TABLE `Person` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT=2340,
+  `Name` varchar(40) NOT NULL,
+  `Address` varchar(255) NOT NULL,
+  `Email` varchar(30) NOT NULL,
+  `Password` varchar(15) NOT NULL,
+  `Contact` bigint(11) NOT NULL,
+  `Type` varchar(10) NOT NULL,
+  `Gender` varchar(10) NOT NULL,
+  `Height` int(11) NOT NULL,
+  `Weight` int(11) NOT NULL,
+  `DOB` date NOT NULL,
+  `AGE` int(11) NOT NULL
+) 
