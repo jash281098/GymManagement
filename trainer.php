@@ -30,6 +30,16 @@ $db = mysqli_connect("localhost", "root", "", "gym");
 <!DOCTYPE html>
 <html>
 <head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148732250-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148732250-1');
+</script>
 <title>Image Upload</title>
     <link rel="stylesheet" href="trainer.css" type="text/css">
 </head>
